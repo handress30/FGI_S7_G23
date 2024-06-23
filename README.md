@@ -1,2 +1,2 @@
 # FGI_S7_G23
-Entrega Fundamentos d eGestion Informatica Subgrupo 23
+Entrega Fundamentos de Gestion Informatica Subgrupo 23
