@@ -1,54 +1,55 @@
-# ISO 22301: Sistema de Gestión de la Continuidad del Negocio
+# Plan de Continuidad de Negocios para CLEZ SAS
 
-## A. Análisis del impacto del negocio
+## 1. Análisis del Impacto en el Negocio
 
-- Evaluar las necesidades internas y externas
-- Definir el alcance del Sistema de Gestión de Continuidad del Negocio (BCMS)
+- **Funciones Críticas**: Administración y gestión en tiempo real de operaciones en centros deportivos mediante software ERP.
+- **Impacto de Interrupciones**:
+  - **Pérdida de Ingresos**: Afecta directamente los ingresos operacionales diarios.
+  - **Daño a la Reputación**: Afecta la confianza de los clientes y la imagen de marca.
+  - **Pérdida de Datos**: Interrupción en la transmisión de datos a la contabilidad y otros sistemas críticos.
+- **Objetivos Mínimos de Continuidad Empresarial (OMCE)**:
+  - Reanudar operaciones críticas de ERP en un máximo de 2 horas.
+  - Mantener comunicación con clientes y empleados dentro de las primeras 4 horas post incidente.
 
-## B. Ciclo de la mejora continua
+## 2. Estrategia de Continuidad de Negocio
 
-- Planificar, Hacer, Verificar, Actuar (PHVA)
+- **Servidores en la Nube con AWS**:
+  - Implementar redundancia en la nube para el ERP y bases de datos.
+  - Establecer un sitio de respaldo en la nube y redireccionar automáticamente en caso de fallo.
+- **Gestión de la Información**:
+  - Realizar copias de seguridad automáticas de datos críticos cada 2 horas.
+  - Utilizar un software de gestión de inventario y operaciones en la nube.
 
-## C. Cláusula 4: Contexto de la organización
+## 3. Desarrollo del Plan de Continuidad de Negocio
 
-- Identificar y analizar las expectativas de las partes interesadas
-- Establecer el alcance del BCMS
-- Beneficios:
-  - Reducción del tiempo de inactividad en caso de incidente
-  - Mejora de la satisfacción del cliente
-  - Mayor satisfacción y compromiso de los empleados
-  - Primas de seguros reducidas
+- **Plan de Respuesta a Emergencias**:
+  - Identificar incidentes que afecten la continuidad operacional.
+  - Comunicar inmediatamente a todos los empleados y partes interesadas sobre la situación.
+- **Estructura de Respuesta a Incidentes**:
+  - Establecer un equipo de respuesta a emergencias (ERT).
+  - Definir roles y responsabilidades dentro del ERT.
+- **Plan de Recuperación**:
+  - Pasos específicos para recuperar funciones críticas.
+  - Identificar recursos necesarios para la recuperación.
+  - Establecer cronograma de recuperación.
 
-## D. Cláusula 5: Liderazgo
+## 4. Pruebas y Ejercicios
 
-- Liderazgo y Compromiso
-  - Integración de los requisitos del BCMS en los procesos de negocio
-- Política de continuidad del negocio
-- Roles, Responsabilidades y Autoridades
+- Realizar pruebas de escritorio y simulacros de recuperación para evaluar y mejorar el plan.
 
-## E. Cláusula 6: Planificación
+## 5. Evaluación del Desempeño
 
-- Gestión de riesgos
-- Objetivos de continuidad del negocio y planificación para lograrlos
+- Realizar auditorías internas y revisiones de gestión para asegurar la eficacia del plan.
+- Implementar acciones correctivas y preventivas basadas en las auditorías.
+- Promover la mejora continua para adaptarse a nuevos desafíos y oportunidades.
 
-## F. Cláusula 7: Soporte
+## Aplicación en CLEZ SAS
 
-- Recursos necesarios
-- Competencia, toma de conciencia y comunicación
-- Documentación
+- **Contexto de la Organización**: Empresa de desarrollo de software ERP para centros deportivos.
+- **Planificación**: Alta disponibilidad requerida desde las 4:00 AM hasta las 11:00 PM.
+- **Operación**: Servidores en AWS sin redundancia actual; necesario implementar estrategias de redundancia y respaldo.
 
-## G. Cláusula 8: Operación
+## Referencias
 
-- Implementación y control de los procesos
-- Evaluación de la eficacia
-
-## H. Cláusula 9: Evaluación de desempeño
-
-- Monitoreo, medición, análisis y evaluación
-- Auditoría interna
-- Revisión por la dirección
-
-## I. Cláusula 10: Mejoramiento
-
-- No conformidades y acciones correctivas
-- Mejora continua
+- Norma ISO 22301 sobre Sistemas de Gestión de Continuidad del Negocio.
+- Mejores prácticas en la industria de software y gestión de servicios en la nube.
